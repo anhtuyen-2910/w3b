@@ -1,0 +1,2291 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden
+}
+
+body {
+  background-color: #30004A;
+}
+
+div#fullpage {
+  width: 1280px;
+  height: 9000px;
+}
+
+#title {
+  height: 300px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+
+#title img {
+  max-width: 35%;
+  height: auto;
+}
+
+.poem {
+  color: #F36DFF;
+  text-align: left;
+  font-family: "Cormorant Upright";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#sentence12-1 {
+  color: #E9003B;
+}
+
+#sentence12-2 {
+  color: #E9003B;
+}
+
+#sentence14 {
+  text-align: right;
+  color: #FFFF9C;
+}
+
+#sentence15 {
+  color: #9700FF;
+}
+
+#statue1 {
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  right: 100px;
+}
+
+#statue1 img {
+  transform: scale(1.25);
+  transform-origin: center;
+  width: auto;
+  height: auto;
+}
+
+#page1 {
+  height: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+  position: relative;
+  bottom: 200px;
+}
+
+#page1 p {
+  width: 270px;
+}
+
+#sentence1 {
+  text-align: right;
+}
+
+#sentence3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+#sentence3-1 {
+  margin: 0;
+}
+
+#sentence3-2 {
+  margin: 0;
+}
+
+#sentence3-3 {
+  margin: 0;
+}
+
+#river-cloud1 {
+  height: 500px;
+  text-align: center;
+  position: relative;
+  bottom: 810px;
+  right: 90px;
+}
+
+#sentence4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: left;
+  position: relative;
+  left: 60px;
+}
+
+#sentence4-1 {
+  margin: 0;
+}
+
+#sentence4-2 {
+  margin: 0;
+  position: relative;
+  left: 50px;
+}
+
+#sentence4-3 {
+  margin: 0;
+  position: relative;
+  left: 100px;
+}
+
+#page2 {
+  height: 700px;
+}
+
+#sentence5 {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 150px;
+  bottom: 1100px;
+}
+
+#flower {
+  width: 500px;
+  position: relative;
+  right: 500px;
+
+  animation-name: animating-flower;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-flower {
+  0% {
+    transform: rotate(0);
+    transform-origin: center right;
+  }
+
+  30% {
+    transform: rotate(270deg);
+    transform-origin: center right;
+  }
+
+  100% {
+    transform: rotate(0);
+    transform-origin: center right;
+  }
+}
+
+#sentence5-1 {
+  margin: 0;
+  text-align: center;
+  width: 280px;
+  position: relative;
+}
+
+#thread {
+  height: 800px;
+  transform: scale(0.9);
+  position: relative;
+  right: 170px;
+}
+
+#sentence6 {
+  position: relative;
+  left: 200px;
+  bottom: 130px;
+}
+
+#page3 {
+  height: 800px;
+  position: relative;
+  bottom: 20px;
+}
+
+#heart {
+  height: 500px;
+  transform: scale(0.9);
+  position: relative;
+  bottom: 1470px;
+  left: 380px;
+
+  animation-name: animating-heart;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-heart {
+  0% {
+    transform: scaleX(0.9) scaleY(0.9);
+  }
+
+  30% {
+    transform: scaleX(1) scaleY(0.9);
+  }
+
+  50% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+
+  100% {
+    transform: scaleX(0.9) scaleY(0.9);
+  }
+}
+
+#heart:hover {
+  animation-play-state: paused;
+}
+
+#blood {
+  height: 500px;
+  transform: scale(0.8);
+  position: relative;
+  bottom: 300px;
+  left: 440px;
+}
+
+#hand {
+  height: 500px;
+  position: relative;
+  left: 460px;
+}
+
+#sentence7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  left: 60px;
+  bottom: 800px;
+}
+
+#sentence7-1 {
+  margin: 0;
+  position: relative;
+}
+
+#sentence7-2 {
+  margin: 0;
+  position: relative;
+  left: 150px;
+}
+
+#river-cloud2 {
+  height: 500px;
+  position: relative;
+  bottom: 900px;
+  right: 120px;
+}
+
+#sentence8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  bottom: 500px;
+  left: 500px;
+}
+
+#sentence8-1 {
+  margin: 0;
+  position: relative;
+}
+
+#sentence8-2 {
+  margin: 0;
+  position: relative;
+  left: 50px;
+}
+
+#sentence8-3 {
+  margin: 0;
+  position: relative;
+  left: 100px;
+}
+
+#page4 {
+  height: 4vw;
+  position: relative;
+  bottom: 700px;
+}
+
+#cloud1 {
+  height: 500px;
+  position: relative;
+  right: 370px;
+
+  animation-name: animating-cloud1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-cloud1 {
+  0% {
+    position: relative;
+    right: 370px;
+    top: 0;
+  }
+
+  70% {
+    position: relative;
+    right: 420px;
+    top: 70px;
+  }
+
+  100% {
+    position: relative;
+    right: 370px;
+    top: 0;
+  }
+}
+
+#sentence9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  bottom: 240px;
+  left: 400px;
+}
+
+#sentence9-1 {
+  margin: 0;
+  position: relative;
+}
+
+#sentence9-2 {
+  margin: 0;
+  position: relative;
+  left: 150px;
+}
+
+#sentence10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  left: 400px;
+  bottom: 600px;
+}
+
+#sentence10-1 {
+  margin: 0;
+  color: #9700FF;
+  position: relative;
+  z-index: 50;
+}
+
+#sentence10-2 {
+  margin: 0;
+  color: #9700FF;
+  position: relative;
+  left: 190px;
+  z-index: 50;
+}
+
+#sentence11 {
+  position: relative;
+  left: 500px;
+}
+
+#big-rose {
+  height: 2vw;
+  position: relative;
+  bottom: 300px;
+}
+
+#letter {
+  height: 500px;
+  transform: scale(0.8);
+  text-align: center;
+  position: relative;
+  z-index: -90;
+}
+
+#letter img {
+  animation-name: animating-letter;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-letter {
+  0% {
+    transform: rotate(0);
+  }
+
+  30% {
+    transform: rotate(5deg);
+  }
+
+  70% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#rose1 {
+  height: 500px;
+  transform: scale(0.5);
+  position: relative;
+  bottom: 380px;
+  right: 300px;
+  z-index: -100;
+}
+
+#rose1 img {
+  animation-name: animating-rose1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-rose1 {
+  0% {
+    transform: rotate(0);
+  }
+
+  30% {
+    transform: rotate(5deg);
+  }
+
+  70% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#rose2 {
+  height: 500px;
+  transform: scale(0.4);
+  position: relative;
+  bottom: 780px;
+  left: 400px;
+  z-index: -100;
+}
+
+#rose2 img {
+  animation-name: animating-rose2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-rose2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  30% {
+    transform: rotate(5deg);
+  }
+
+  70% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#sentence12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-15deg);
+  position: relative;
+  right: 20px;
+  top: 130px;
+
+  animation-name: animating-text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-text {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+#sentence12-1 {
+  margin: 0;
+  position: relative;
+  z-index: 300;
+}
+
+#sentence12-2 {
+  margin: 0;
+  position: relative;
+  z-index: 300;
+}
+
+#sentence13 {
+  margin: 0;
+}
+
+#statue2 {
+  height: 4vw;
+  transform: scale(0.8);
+  text-align: center;
+  position: relative;
+  top: 500px;
+  z-index: 100;
+
+  animation-name: animating-statue2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-statue2 {
+  0% {
+    position: relative;
+    top: 500px;
+  }
+
+  30% {
+    position: relative;
+    top: 450px;
+  }
+
+  70% {
+    position: relative;
+    top: 900px;
+  }
+
+  100% {
+    position: relative;
+    top: 500px;
+  }
+}
+
+.mountain {
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mountain img {
+  position: relative;
+  top: 700px;
+}
+
+#fountain {
+  height: 4vw;
+  text-align: center;
+  position: relative;
+  bottom: 1150px;
+  right: 370px;
+  z-index: 200;
+}
+
+#weather {
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 800px;
+}
+
+#weather p {
+  width: 100px;
+  position: relative;
+  top: 900px;
+  z-index: 300;
+}
+
+#sentence16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  top: 1900px;
+  left: 60px;
+}
+
+#sentence16-1 {
+  margin: 0;
+  position: relative;
+  z-index: 200;
+}
+
+#sentence16-2 {
+  margin: 0;
+  position: relative;
+  left: 190px;
+  z-index: 200;
+}
+
+#sentence17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  left: 500px;
+  top: 3000px;
+}
+
+#sentence17-1 {
+  margin: 0;
+  position: relative;
+  z-index: 200;
+}
+
+#sentence17-2 {
+  margin: 0;
+  position: relative;
+  z-index: 200;
+}
+
+#minirose-1 {
+  width: 110px;
+  height: auto;
+  position: relative;
+  left: 780px;
+  bottom: 2110px;
+  z-index: 200;
+  transform: rotate(-100deg);
+  transition: transform 0.75s ease-in;
+}
+
+#minirose-1:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transition-timing-function: ease-in-out;
+}
+
+#minirose-2 {
+  width: 70px;
+  height: auto;
+  position: relative;
+  left: 750px;
+  bottom: 2070px;
+  z-index: 200;
+  transform: rotate(-80deg);
+  transition: transform 0.75s ease-in;
+}
+
+#minirose-2:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transition-timing-function: ease-in-out;
+}
+
+#minirose-3 {
+  width: 250px;
+  height: auto;
+  position: relative;
+  bottom: 850px;
+  left: 560px;
+  z-index: 200;
+  transform: rotate(-80deg);
+
+  animation-name: animating-minirose3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose3 {
+  0% {
+    position: relative;
+    transform: rotate(-80deg);
+  }
+
+  30% {
+    position: relative;
+    transform: rotate(-100deg);
+  }
+
+  100% {
+    transform: rotate(-80deg);
+  }
+}
+
+#minirose-4 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  bottom: 800px;
+  left: 230px;
+  z-index: 100;
+  transform: rotate(80deg);
+
+  animation-name: animating-minirose4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose4 {
+  0% {
+    position: relative;
+    transform: rotate(80deg);
+  }
+
+  70% {
+    position: relative;
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(80deg);
+  }
+}
+
+#minirose-5 {
+  width: 320px;
+  height: auto;
+  position: relative;
+  bottom: 750px;
+  left: 400px;
+  z-index: 200;
+  transition: transform 0.75s ease-in;
+  transform-origin: 40% 40%;
+}
+
+#minirose-5:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transform-origin: 40% 40%;
+  transition-timing-function: ease-in-out;
+}
+
+#minirose-6 {
+  width: 160px;
+  height: auto;
+  position: relative;
+  bottom: 750px;
+  left: 580px;
+  z-index: 200;
+  transform: rotate(-120deg);
+
+  animation-name: animating-minirose6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose6 {
+  0% {
+    position: relative;
+    transform: rotate(-120deg);
+  }
+
+  60% {
+    position: relative;
+    transform: rotate(-150deg);
+  }
+
+  100% {
+    transform: rotate(-120deg);
+  }
+}
+
+#minirose-7 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  bottom: 880px;
+  left: 270px;
+  z-index: 100;
+  transform: rotate(-30deg);
+
+  animation-name: animating-minirose7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose7 {
+  0% {
+    position: relative;
+    transform: rotate(-30deg);
+  }
+
+  40% {
+    position: relative;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+
+#minirose-8 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  bottom: 700px;
+  left: 480px;
+  z-index: 200;
+  transition: transform 0.75s ease-in;
+  transform-origin: 40% 40%;
+}
+
+#minirose-8:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transform-origin: 40% 40%;
+  transition-timing-function: ease-in-out;
+}
+
+
+#minirose-9 {
+  width: 160px;
+  height: auto;
+  position: relative;
+  right: 330px;
+  bottom: 1000px;
+  z-index: 200;
+
+  animation-name: animating-minirose9;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose9 {
+  0% {
+    position: relative;
+    transform: rotate(0deg);
+  }
+
+  70% {
+    position: relative;
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#minirose-10 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  left: 300px;
+  bottom: 1000px;
+  z-index: 100;
+  transform: rotate(125deg);
+
+  animation-name: animating-minirose10;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-minirose10 {
+  0% {
+    position: relative;
+    transform: rotate(125deg);
+  }
+
+  50% {
+    position: relative;
+    transform: rotate(100deg);
+  }
+
+  100% {
+    transform: rotate(125deg);
+  }
+}
+
+#minirose-11 {
+  width: 270px;
+  height: auto;
+  position: relative;
+  bottom: 820px;
+  right: 580px;
+  z-index: 200;
+  transition: transform 0.75s ease-in;
+  transform-origin: 40% 40%;
+}
+
+#minirose-11:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transform-origin: 40% 40%;
+  transition-timing-function: ease-in-out;
+}
+
+#opening {
+  height: 1400px;
+}
+
+#smolcloud-1 {
+  width: 700px;
+  height: auto;
+  position: relative;
+  bottom: 1900px;
+  right: 500px;
+
+  animation-name: animating-smolcloud1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud1 {
+  0% {
+    position: relative;
+    bottom: 1900px;
+    right: 500px;
+  }
+
+  60% {
+    position: relative;
+    bottom: 1850px;
+    right: 560px;
+  }
+
+  100% {
+    position: relative;
+    bottom: 1900px;
+    right: 500px;
+  }
+}
+
+
+#smolcloud-2 {
+  width: 600px;
+  height: auto;
+  position: relative;
+  left: 950px;
+  bottom: 2400px;
+
+  animation-name: animating-smolcloud2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud2 {
+  0% {
+    position: relative;
+    left: 950px;
+    bottom: 2400px;
+  }
+
+  70% {
+    position: relative;
+    left: 900px;
+    bottom: 2450px;
+  }
+
+  100% {
+    pposition: relative;
+    left: 950px;
+    bottom: 2400px;
+  }
+}
+
+#smolcloud-3 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  bottom: 2550px;
+
+  animation-name: animating-smolcloud3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud3 {
+  0% {
+    position: relative;
+    bottom: 2550px;
+    left: 0;
+  }
+
+  70% {
+    position: relative;
+    bottom: 2500px;
+    left: 50px;
+  }
+
+  100% {
+    position: relative;
+    bottom: 2550px;
+    left: 0;
+  }
+}
+
+#sparkle1 {
+  height: 200px;
+  width: auto;
+  position: relative;
+  left: 1050px;
+  bottom: 1250px;
+
+  animation-name: animating-sparkle1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle1 {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle2 {
+  height: 100px;
+  width: auto;
+  position: relative;
+  left: 950px;
+  bottom: 1200px;
+
+  animation-name: animating-sparkle2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle2 {
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle3 {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  bottom: 1100px;
+  left: 200px;
+
+  animation-name: animating-sparkle3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle3 {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  30% {
+    transform: scaleX(1.5) scaleY(1);
+  }
+
+  70% {
+    transform: scaleX(1) scaleY(1.5);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+#sparkle3:hover {
+  filter: blur(4px);
+}
+
+#sparkle_page2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 2vw;
+}
+
+#sparkle-p2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sparkle-p3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sparkle4 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle4:hover {
+  transform: scale(1.75)
+}
+
+#sparkle5 {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle5:hover {
+  transform: scale(0.5)
+}
+
+#sparkle6 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle6:hover {
+  transform: scale(1.75)
+}
+
+#sparkle7 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle7:hover {
+  transform: scale(1.75)
+}
+
+#sparkle8 {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle8:hover {
+  transform: scale(0.5)
+}
+
+#sparkle9 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+#sparkle9:hover {
+  transform: scale(1.75)
+}
+
+#minirose-12 {
+  width: 100px;
+  position: relative;
+  bottom: 660px;
+  left: 470px;
+  transform: rotate(45deg);
+  transition: transform 0.75s ease-in;
+}
+
+#minirose-12:hover {
+  transform: rotate(360deg) scale(1.125);
+  transition: 0.75s;
+  transition-timing-function: ease-in-out;
+}
+
+#minirose-13 {
+  width: 150px;
+  position: relative;
+  bottom: 750px;
+  left: 470px;
+  transition: transform 0.75s ease-in;
+}
+
+#minirose-13:hover {
+  transform: rotate(270deg) scale(1.125);
+  transition: 0.75s;
+  transition-timing-function: ease-in-out;
+}
+
+
+#smolcloud-4 {
+  width: 350px;
+  height: auto;
+  position: relative;
+  bottom: 1750px;
+  left: 250px;
+
+  animation-name: animating-smolcloud4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud4 {
+  0% {
+    position: relative;
+    bottom: 1750px;
+    left: 250px;
+  }
+
+  70% {
+    position: relative;
+    bottom: 1700px;
+    left: 200px;
+  }
+
+  100% {
+    position: relative;
+    bottom: 1750px;
+    left: 250px;
+  }
+}
+
+#smolcloud-5 {
+  width: 180px;
+  height: auto;
+  position: relative;
+  bottom: 1860px;
+  left: 30px;
+
+  animation-name: animating-smolcloud5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud5 {
+  0% {
+    position: relative;
+    bottom: 1860px;
+    left: 30px;
+  }
+
+  70% {
+    position: relative;
+    bottom: 1900px;
+    left: 50px;
+  }
+
+  100% {
+    position: relative;
+    bottom: 1860px;
+    left: 30px;
+  }
+}
+
+#smolcloud-6 {
+  width: 550px;
+  height: auto;
+  position: relative;
+  bottom: 650px;
+  left: 950px;
+
+  animation-name: animating-smolcloud6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud6 {
+  0% {
+    position: relative;
+    bottom: 650px;
+    left: 950px;
+  }
+
+  30% {
+    position: relative;
+    bottom: 700px;
+    left: 900px;
+  }
+
+  100% {
+    bottom: 650px;
+    left: 950px;
+  }
+}
+
+#page5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  position: relative;
+  top: 650px;
+}
+
+#sparkle-p4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#sparkle10 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+  animation-name: animating-sparkle10;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle10 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.75);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle11 {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+  animation-name: animating-sparkle11;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle11 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle12 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+  animation-name: animating-sparkle12;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle12 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.75);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle13 {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+  animation-name: animating-sparkle13;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle13 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#sparkle14 {
+  height: 70px;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+  animation-name: animating-sparkle14;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-sparkle14 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.75);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+#smolcloud-78 {
+  position: relative;
+  top: 1100px;
+  left: 70px;
+}
+
+#smolcloud-7 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1050px;
+  left: 1100px;
+  z-index: 50;
+
+  animation-name: animating-smolcloud7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud7 {
+  0% {
+    position: relative;
+    top: 1050px;
+    left: 1100px;
+  }
+
+  70% {
+    position: relative;
+    top: 1050px;
+    left: 1050px;
+  }
+
+  100% {
+    position: relative;
+    top: 1050px;
+    left: 1100px;
+  }
+}
+
+#smolcloud-8 {
+  width: 500px;
+  height: auto;
+  position: relative;
+  top: 1200px;
+  left: 600px;
+
+  animation-name: animating-smolcloud8;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud8 {
+  0% {
+    position: relative;
+    top: 1200px;
+    left: 600px;
+  }
+
+  70% {
+    position: relative;
+    top: 1200px;
+    left: 640px;
+  }
+
+  100% {
+    position: relative;
+    top: 1200px;
+    left: 600px;
+  }
+}
+
+#smolcloud-9 {
+  position: relative;
+  top: 2350px;
+  right: 100px;
+
+  animation-name: animating-smolcloud9;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud9 {
+  0% {
+    position: relative;
+    top: 2350px;
+    right: 100px;
+  }
+
+  70% {
+    position: relative;
+    top: 2380px;
+    right: 20px;
+  }
+
+  100% {
+    position: relative;
+    top: 2350px;
+    right: 100px;
+  }
+}
+
+#smolcloud-10 {
+  width: 300px;
+  position: relative;
+  top: 1000px;
+
+  animation-name: animating-smolcloud10;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animating-smolcloud10 {
+  0% {
+    position: relative;
+    top: 1000px;
+    left: 0;
+  }
+
+  40% {
+    position: relative;
+    top: 1000px;
+    left: 50px;
+  }
+
+  80% {
+    position: relative;
+    top: 1000px;
+    right: 10px;
+  }
+
+  100% {
+    position: relative;
+    top: 1000px;
+    left: 0;
+  }
+}
+
+#eye {
+  margin: 0;
+  height: 1vw;
+  width: auto;
+  z-index: 200;
+  position: relative;
+  top: 1150px;
+}
+
+#eye-1 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 50px;
+  top: 2000px;
+  transition: transform 0.5s ease-in;
+}
+
+#eye-2 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 150px;
+  top: 1950px;
+}
+
+#eye-3 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 50px;
+  top: 2000px;
+}
+
+#eye-4 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 550px;
+  top: 2000px;
+}
+
+#eye-5 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 750px;
+  top: 1600px;
+}
+
+#eye-6 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 600px;
+  top: 1500px;
+  transition: transform 0.3s ease;
+}
+
+#eye-6:hover {
+  transform: scale(1.25);
+}
+
+#eye-6:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#eye-7 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 500px;
+  top: 1600px;
+  transition: transform 0.3s ease;
+}
+
+#eye-7:hover {
+  transform: scale(1.25);
+}
+
+#eye-7:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-8 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1700px;
+  transition: transform 0.3s ease;
+}
+
+#eye-8:hover {
+  transform: scale(1.25);
+}
+
+#eye-8:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-9 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1250px;
+  transition: transform 0.3s ease;
+}
+
+#eye-9:hover {
+  transform: scale(1.25);
+}
+
+#eye-9:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-10 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 400px;
+  top: 1100px;
+  transition: transform 0.3s ease;
+}
+
+#eye-10:hover {
+  transform: scale(1.25);
+}
+
+#eye-10:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-11 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  right: 300px;
+  top: 1300px;
+  transition: transform 0.3s ease;
+}
+
+#eye-11:hover {
+  transform: scale(1.25);
+}
+
+#eye-11:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-12 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 150px;
+  top: 1100px;
+  transition: transform 0.3s ease;
+}
+
+#eye-12:hover {
+  transform: scale(1.25);
+}
+
+#eye-12:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-13 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 800px;
+  top: 750px;
+  transition: transform 0.3s ease;
+}
+
+#eye-13:hover {
+  transform: scale(1.25);
+}
+
+#eye-13:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-14 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 300px;
+  top: 950px;
+  transition: transform 0.3s ease;
+}
+
+#eye-14:hover {
+  transform: scale(1.25);
+}
+
+#eye-14:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-15 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1200px;
+  left: 100px;
+  transition: transform 0.3s ease;
+}
+
+#eye-15:hover {
+  transform: scale(1.25);
+}
+
+#eye-15:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-16 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1200px;
+  right: 800px;
+  transition: transform 0.3s ease;
+}
+
+#eye-16:hover {
+  transform: scale(1.25);
+}
+
+#eye-16:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-17 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 1000px;
+  top: 900px;
+  transition: transform 0.3s ease;
+}
+
+#eye-17:hover {
+  transform: scale(1.25);
+}
+
+#eye-17:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#eye-18 {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 170px;
+  top: 900px;
+  transition: transform 0.3s ease;
+}
+
+#eye-18:hover {
+  transform: scale(1.25);
+}
+
+#eye-18:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#smolcloud-11 {
+  width: 120px;
+  height: auto;
+  position: relative;
+  left: 450px;
+  top: 2550px;
+  z-index: 500;
+
+  animation-name: animating-smolcloud11;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  transition: transform 0.3s ease;
+}
+
+@keyframes animating-smolcloud11 {
+  0% {
+    position: relative;
+    left: 450px;
+    top: 2550px;
+  }
+
+  70% {
+    position: relative;
+    left: 430px;
+    top: 2520px;
+  }
+
+  100% {
+    position: relative;
+    left: 450px;
+    top: 2550px;
+  }
+}
+
+#smolcloud-11:hover {
+  transform: scale(1.25);
+}
+
+#smolcloud-11:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#smolcloud-12 {
+  width: 170px;
+  height: auto;
+  position: relative;
+  left: 200px;
+  top: 2500px;
+  z-index: 500;
+
+  animation-name: animating-smolcloud12;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  transition: transform 0.3s ease;
+}
+
+@keyframes animating-smolcloud12 {
+  0% {
+    position: relative;
+    left: 200px;
+    top: 2500px;
+  }
+
+  50% {
+    position: relative;
+    left: 170px;
+    top: 2480px;
+  }
+
+  100% {
+    position: relative;
+    left: 200px;
+    top: 2500px;
+  }
+}
+
+#smolcloud-12:hover {
+  transform: scale(1.25);
+}
+
+#smolcloud-12:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#smolcloud-13 {
+  width: 130px;
+  height: auto;
+  position: relative;
+  top: 2600px;
+  z-index: 500;
+
+  animation-name: animating-smolcloud13;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  transition: transform 0.3s ease;
+}
+
+@keyframes animating-smolcloud13 {
+  0% {
+    position: relative;
+    top: 2600px;
+    right: 0;
+  }
+
+  50% {
+    position: relative;
+    top: 2620px;
+    right: 20;
+  }
+
+  100% {
+    position: relative;
+    top: 2600px;
+    right: 0;
+  }
+}
+
+#smolcloud-13:hover {
+  transform: scale(1.25);
+}
+
+#smolcloud-13:active {
+  animation: disappear 2s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#credit {
+  color: #F36DFF;
+  text-align: right;
+  font-family: "Cormorant Upright";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  position: relative;
+  top: 3200px;
+  right: 200px;
+}
